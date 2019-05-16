@@ -4,12 +4,17 @@ public abstract class Agencia {
 	private int numero;
 	private String endereco;
 	
-	private void setNumero(int numero) {
+	public Agencia(int numero, String endereco) {
+		this.setNumero(numero);
+		this.setEndereço(endereco);
+	}
+	
+	public void setNumero(int numero) {
 		// Inserir validação de número
 		this.numero = numero;
 	}
 	
-	private void setEndereço(String endereco) {
+	public void setEndereço(String endereco) {
 		// Inserir validação de endereço
 		this.endereco = endereco;
 	}
