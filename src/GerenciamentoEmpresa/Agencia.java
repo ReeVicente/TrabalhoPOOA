@@ -1,6 +1,6 @@
 package GerenciamentoEmpresa;
 
-public abstract class Agencia {
+public abstract class Agencia implements AgenciaInterface {
 	private int numero;
 	private String endereco;
 	
